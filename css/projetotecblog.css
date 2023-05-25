@@ -1,0 +1,103 @@
+/* formataçoes padrao */ 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: sans-serif;
+	background: #e6e6e6;
+}
+
+#cabeçario-maior {
+	
+	background-color: darkorange;
+}
+
+#titulo {
+	padding: 25px;
+	text-align: center;
+	font-size: 3em;
+}
+
+#itens-titulo {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#cor-blog-titulo {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	padding: 9px;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: black;
+	background-color: white;
+}
+
+.area-principal {
+	width: 960px;
+	background-color: #CCC;
+	margin: 30px auto;
+	padding: 15px;
+  }
+
+
+.postagens,.recentes {
+	background-color: ghostwhite;
+	margin: 10px;
+	padding: 15px;	
+}
+
+.postagens {
+	float: left; 
+	width: 620px;
+	
+	
+	
+}
+
+.recentes {
+	float: right;
+	width: 240px;
+	p
+	
+
+}
+
+h1 {
+	color:darkorange;
+}
+
+
+#rodape {
+	clear: both;
+	background-color: #CCC;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+h2 {
+	color: black;
+	background-color: #CCC;
+	padding-left: 10px;
+
+}
+
+.area-principal a:link, .area-principal a:visited, .area-principal a:hover{
+	color: darkorange;
+	background-color: none;
+}
+
+
